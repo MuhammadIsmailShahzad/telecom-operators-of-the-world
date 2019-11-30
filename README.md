@@ -1,4 +1,4 @@
-# telecom-operators-of-the-world
+
 This is a dataset of leading telecom operators of the world
 
 ## Data
