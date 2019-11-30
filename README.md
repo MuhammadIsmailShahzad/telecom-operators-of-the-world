@@ -13,7 +13,7 @@ The data contains
  * Ownership of the company
  This data can be viewed in telecom-operators.csv
 
-### List of mobile network operators:
+### List of total revenue of mobile network operators:
 Data is obtained from https://en.wikipedia.org/wiki/List_of_telephone_operating_companies
 The data contains 
  
