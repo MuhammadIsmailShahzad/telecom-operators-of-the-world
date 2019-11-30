@@ -3,10 +3,6 @@ from bs4 import BeautifulSoup
 import csv
 import re
 
-
-
-
-
 website_url = requests.get('https://en.wikipedia.org/wiki/List_of_mobile_network_operators').text
 #from bs4 import BeautifulSoup
 soup = BeautifulSoup(website_url,'lxml')
@@ -26,6 +22,7 @@ with open('telecom-operators.csv', 'w', newline='', encoding="utf-8") as f:
             cell3 = row[2].replace('[', '').replace(']', '')
             cell4 = row[3].replace('[', '').replace(']', '')
             cell5 = row[4].replace('[','').replace(']','')
-            row = [cell1,cell2,cell3,cell4,cell5]
+            cell6 = row[4].replace('[','').replace(']','')
+            row = [cell1,cell2,cell3,cell4,cell5,cell6]
             writer.writerow(row)
         
