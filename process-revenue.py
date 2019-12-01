@@ -14,7 +14,7 @@ soup = BeautifulSoup(website_url,'lxml')
 ti = 0
 
 My_table = soup.find('table',{'class':'wikitable sortable'})
-headers = ['Rank','Company','Total Revenue','Country']
+headers = ['Rank','Company','Total Revenue (Billion$)','Country']
 with open('telecom-revenue.csv', 'w', newline='', encoding="utf-8") as f:
     writer = csv.writer(f, delimiter=',', lineterminator='\n')
     writer.writerow(headers)
