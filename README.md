@@ -22,9 +22,11 @@ The data contains
  * Country of the company
  This data can be viewed in telecom-revenue.csv
 
-Other Good sources of data:
+### Other Good sources of data:
 [GSMA Intelligence : Definitive data and analysis for the mobile industry](https://www.gsmaintelligence.com/)
+
 Apparently they have all kind of data and research material about telecom operators
+
 * Subscriber data
 * Operational data
 * Financial data
