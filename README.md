@@ -31,6 +31,7 @@ Apparently they have all kind of data and research material about telecom operat
 * Operational data
 * Financial data
 * Demographic Economic Data
+
 **But signup required**
 
 ## Preparation
