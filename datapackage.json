@@ -89,7 +89,7 @@
             "format": "default"
           },
           {
-            "name": "Total Revenue",
+            "name": "Total Revenue (Billion$)",
             "type": "string",
             "format": "default"
           },
@@ -122,7 +122,7 @@
       "spec": {
         "type": "bar",
         "group": "Company",
-        "series": [ "Total Revenue" ]
+        "series": [ "Total Revenue (Billion$)" ]
         }
     }
 ]
