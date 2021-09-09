@@ -1,3 +1,5 @@
+WIP: Didnt clean the data properly
+
 This is a dataset of leading telecom operators of the world
 
 ## Data
